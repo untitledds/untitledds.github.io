@@ -2,7 +2,7 @@
 layout: post
 title: Hello World in python
 categories:
-  - Python
+- Python
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
