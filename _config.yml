@@ -3,21 +3,21 @@ remote_theme: daviddarnes/alembic
 highlighter: rouge
 # File excludes
 exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
+- README.md
+- Gemfile
+- Gemfile.lock
 
 # Set plugins
 plugins:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-default-layout
-  - jekyll-feed
-  - jemoji
-  - jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
 
 # Site settings
 url: "https://untitledds.github.io/"
@@ -33,17 +33,17 @@ paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Blog
-    url: /blog/
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Blog
+  url: /blog/
 
 # Footer nav
 navigation_footer:
-  - title: Back to top
-    url: "#top"
+- title: Back to top
+  url: "#top"
 
 # Collections
 collections:
