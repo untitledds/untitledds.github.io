@@ -3,29 +3,29 @@ remote_theme: daviddarnes/alembic
 
 # File excludes
 exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 # Set plugins
 plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-default-layout
+  - jekyll-feed
+  - jemoji
+  - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+url: "https://mydomain.com"
+baseurl: ""
+title: "My website"
+description: "This is my new website"
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "https://s.gravatar.com/avatar/20f5aba9797747d3b09254780bf3f89e?s=80"
 
 # Pagination
 paginate: 5
@@ -33,17 +33,17 @@ paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
 
 # Footer nav
 navigation_footer:
-- title: Back to top
-  url: "#top"
+  - title: Back to top
+    url: "#top"
 
 # Collections
 collections:
@@ -53,4 +53,4 @@ collections:
     description: "My thoughts and ideas"
     feature_text: |
       Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "https://picsum.photos/id/866/2560/600?blur"
