@@ -1,6 +1,6 @@
 # Set theme
 remote_theme: daviddarnes/alembic
-
+highlighter: rouge
 # File excludes
 exclude:
   - README.md
