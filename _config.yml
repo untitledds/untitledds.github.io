@@ -22,8 +22,8 @@ plugins:
 # Site settings
 url: "https://untitledds.github.io/"
 baseurl: ""
-title: "My website"
-description: "This is my new website"
+title: "Another IT blog"
+description: "Blog it engeneer"
 permalink: pretty
 logo: "https://s.gravatar.com/avatar/20f5aba9797747d3b09254780bf3f89e?s=80"
 
