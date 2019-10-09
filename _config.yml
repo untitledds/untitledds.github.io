@@ -1,56 +1,56 @@
-# Set theme
-remote_theme: daviddarnes/alembic
-highlighter: rouge
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+title: Stack Problems
+description: My Personal Stack Problems
+author: Agus Makmun
+github: https://github.com/agusmakmun
+about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
 
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
+enableTags: true
+tagarray: []
 
-# Site settings
-url: "https://untitledds.github.io/"
-baseurl: ""
-title: "Another IT blog"
-description: "Blog it engeneer"
-permalink: pretty
-logo: "https://s.gravatar.com/avatar/20f5aba9797747d3b09254780bf3f89e?s=80"
-
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
-
-# Collections
 collections:
-  posts:
-    title: Posts
+  project:
     output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/id/866/2560/600?blur"
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/agusmakmun"
+
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://agusmakmun.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']

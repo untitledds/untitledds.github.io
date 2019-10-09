@@ -1,6 +1,9 @@
 ---
 layout: page
-title: About this website
+title: About
+permalink: /about/
 ---
 
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+
+email: agus[at]python.web.id
